@@ -35,11 +35,20 @@ nav a {
   color: #bb9af7;
 }
 
-.nav-link:hover {
+a:hover {
   color: #b4f9f8;
 }
 
 .nav-active {
   color: #f7768e;
   text-decoration: underline;
+}
+
+main {
+  border: 2px solid #bb9af7;
+  padding: 0 13%;
+}
+
+.main-image {
+  width: 100%;
 }
