@@ -52,3 +52,13 @@ main {
 .main-image {
   width: 100%;
 }
+
+.gallery-container {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.gallery-image:hover {
+  width: 400px;
+  height: 400px;
+}
