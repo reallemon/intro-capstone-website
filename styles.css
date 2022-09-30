@@ -1,6 +1,7 @@
 html {
   background-color: #24283b;
   color: #9aa5ce;
+  margin: 1% 15%;
 }
 
 h1,
@@ -11,4 +12,34 @@ h3 {
 
 a {
   color: #2ac3de;
+}
+
+nav {
+  border: 2px solid #bb9af7;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1rem;
+  margin: 0.6rem;
+}
+
+.nav-link {
+  color: #bb9af7;
+}
+
+.nav-link:hover {
+  color: #b4f9f8;
+}
+
+.nav-active {
+  color: #f7768e;
+  text-decoration: underline;
 }
