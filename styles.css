@@ -6,7 +6,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+legend {
   color: #f7768e;
 }
 
@@ -61,4 +62,35 @@ main {
 .gallery-image:hover {
   width: 400px;
   height: 400px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0 30%;
+}
+
+.form-labels {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 0 1%;
+}
+
+.form-inputs {
+  border: 2px solid #1a1b26;
+  border-radius: 3%;
+  background-color: #414868;
+  color: #c0caf5;
+  resize: none;
+}
+
+.form-inputs:focus {
+  outline: none;
+  border: 2px solid #bb9af7;
+}
+
+button {
+  background-color: #1a1b26;
+  color: #c0caf5;
+  border-radius: 10%;
+  margin: 2% 40%;
 }
