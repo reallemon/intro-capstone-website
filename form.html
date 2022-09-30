@@ -14,6 +14,42 @@
         <li class="nav-link"><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
-    <main></main>
+    <main>
+      <form action="post">
+        <fieldset>
+          <legend>My form</legend>
+          <div class="form-row-1">
+            <div class="form-labels">
+              <label for="firstName">First Name</label>
+              <label for="lastName">Last Name</label>
+            </div>
+            <div class="form-inputs">
+              <input type="text" name="first_name" id="firstName" />
+              <input type="text" name="last_name" id="lastName" />
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-labels">
+              <label for="comments">Comments</label>
+            </div>
+            <div class="form-inputs">
+              <textarea
+                name="comments"
+                id="comments"
+                cols="50"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-row-3">
+            <input type="checkbox" name="agree" id="agree" />
+            <label for="agree">Do you agree to our terms of service?</label>
+          </div>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
   </body>
 </html>
